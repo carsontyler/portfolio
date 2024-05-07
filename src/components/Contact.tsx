@@ -15,18 +15,26 @@ const Contact: React.FC = () => {
         </div>
       </div>
       <div className="contact-info">
-        <div className="contact-item">
-          <i className="fas fa-envelope"></i> <a href="mailto:17ctyler@gmail.com" target="_blank" rel="noopener noreferrer">17ctyler@gmail.com</a>
-        </div>
-        <div className="contact-item">
-          <i className="fas fa-phone"></i> <a href="tel:+13852446611" target="_blank" rel="noopener noreferrer">385.244.6611</a>
-        </div>
-        <div className="contact-item">
-          <i className="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/carsontyler/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </div>
-        <div className="contact-item">
-          <i className="fab fa-github"></i> <a href="https://github.com/carsontyler" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </div>
+        <a href="mailto:17ctyler@gmail.com" target="_blank" rel="noopener noreferrer">
+          <div className="contact-item">
+            <i className="fas fa-envelope"></i> 17ctyler@gmail.com
+          </div>
+        </a>
+        <a href="tel:+13852446611" target="_blank" rel="noopener noreferrer">
+          <div className="contact-item">
+            <i className="fas fa-phone"></i> 385.244.6611
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/carsontyler/" target="_blank" rel="noopener noreferrer">
+          <div className="contact-item">
+            <i className="fab fa-linkedin"></i> LinkedIn
+          </div>
+        </a>
+        <a href="https://github.com/carsontyler" target="_blank" rel="noopener noreferrer">
+          <div className="contact-item">
+            <i className="fab fa-github"></i> GitHub
+          </div>
+        </a>
       </div>
     </div>
   );

@@ -3,49 +3,52 @@
   border-radius: 10px;
 
   h2 {
-      font-size: 24px;
-      margin-bottom: 20px;
+    color: rgb(214, 252, 240);
+    font-size: 24px;
+    margin-bottom: 20px;
   }
 
   .experience-item {
-      margin-bottom: 30px;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
-      .company-name {
-          font-size: 22px;
-          font-weight: bold;
-          color: #333; /* Company name color */
-          text-decoration: none;
+    .company-name {
+      font-size: 22px;
+      font-weight: bold;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .company-name:hover {
+      color: #004288;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: #555;
+      /* Company details color */
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin-top: 10px;
+
+      li {
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: #777;
+        /* List item color */
       }
-
-      .company-name:hover {
-          color: #007bff; /* Company name color on hover */
-      }
-
-      h3 {
-          font-size: 18px;
-          margin-bottom: 10px;
-      }
-
-      p {
-          font-size: 16px;
-          margin-bottom: 8px;
-          color: #555; /* Company details color */
-      }
-
-      ul {
-          list-style-type: disc;
-          padding-left: 20px;
-          margin-top: 10px;
-
-          li {
-              font-size: 16px;
-              margin-bottom: 5px;
-              color: #777; /* List item color */
-          }
-      }
+    }
   }
 }
