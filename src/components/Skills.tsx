@@ -4,7 +4,7 @@ import './Skills.scss';
 const Skills: React.FC = () => {
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
+      <h1>Skills</h1>
       <ul>
         <li>C#</li>
         <li>SQL</li>

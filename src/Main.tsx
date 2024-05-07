@@ -1,19 +1,21 @@
 import React from 'react';
 import './Main.scss'; // Import the SCSS file for styling
 import Navbar from './components/Navbar.tsx';
-import Header from './components/Header.tsx';
+import Contact from './components/Contact.tsx';
 import Skills from './components/Skills.tsx';
 import WorkExperience from './components/WorkExperience.tsx';
 import Education from './components/Education.tsx';
 
 const Main: React.FC = () => {
     return (
-        <div className="main-container">
+        <div>
             <Navbar />
-            <Header />
-            <Skills />
-            <WorkExperience />
-            <Education />
+            <Contact />
+            <div className="main-container">
+                <Skills />
+                <WorkExperience />
+                <Education />
+            </div>
         </div>
     );
 }

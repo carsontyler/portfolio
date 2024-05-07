@@ -39,7 +39,7 @@ const ExperienceItem: React.FC<ExperienceItemProps> = ({
 const WorkExperience: React.FC = () => {
     return (
         <section id="work-experience" className="work-experience-section">
-            <h2>Work Experience</h2>
+            <h1>Work Experience</h1>
             <div className="experience-list">
                 <ExperienceItem
                     companyName="Loyal"
